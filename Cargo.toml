@@ -3,6 +3,10 @@ name = "try-push"
 version = "1.0.0"
 authors = ["Sebastian Malton <sebastian@malton.name>"]
 edition = "2018"
+description = "A trait for attempting potentially expensive actions"
+repository = "https://github.com/nokel81/try-push/"
+license = "MIT"
+keywords = ["try", "push", "vec", "vecdeque"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

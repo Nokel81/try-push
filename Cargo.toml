@@ -7,6 +7,7 @@ description = "A trait for attempting potentially expensive actions"
 repository = "https://github.com/nokel81/try-push/"
 license = "MIT"
 keywords = ["try", "push", "vec", "vecdeque"]
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

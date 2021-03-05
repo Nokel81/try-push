@@ -40,7 +40,7 @@ impl<T> TryPush<T> for Vec<T> {
 
 impl<T> TryPush<T> for VecDeque<T> {
     fn try_push(&mut self, elem: T) -> Element<T> {
-        if dbg!{dbg!{self.capacity()} == dbg!{self.len()}} {
+        if self.capacity() == self.len() {
             Element::NotAdded(elem)
         } else {
             self.push_back(elem);
